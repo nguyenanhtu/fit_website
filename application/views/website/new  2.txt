@@ -1,0 +1,20 @@
+	<?php
+			foreach($dat as $rows)
+			{
+				echo "<li>";	
+				if(empty($rows['thumbnail']))
+				{
+					$path = "no-image.jpg";
+				}
+				else
+				{
+					$path = $rows['thumbnail'];
+				}
+		?>
+		
+			<img src="<?php echo base_url(); ?>public/ckeditor/kcfinder/upload/.thumbs/images/<?php echo $path; ?>" />
+			<h3> <?php echo anchor("articles/detail/{$rows['article_id']}",$rows['title']); ?> </h3>
+		<?php
+				echo "</li>";
+			}
+		?>

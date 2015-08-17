@@ -1,0 +1,16 @@
+	<li id="toolbar-publish" class="button">
+						<span class="icon-32-publish">
+						</span>
+						<input type="submit" value="publish"  name="submitform" />
+					
+						</a>
+						</li>
+
+						<li id="toolbar-unpublish" class="button">
+						<span class="icon-32-unpublish">
+						</span>
+						<input type="submit" value="unpublish"  name="submitform" />
+						</li>
+
+						<li class="divider">
+						</li>

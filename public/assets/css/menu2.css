@@ -1,0 +1,50 @@
+
+a:link {
+	text-decoration: none;
+	color: #3399FF;
+}
+a:visited {
+	text-decoration: none;
+	color: #990033;
+}
+a:hover {
+	text-decoration: none;
+	color: #009933;
+}
+a:active {
+	text-decoration: none;
+	color: #0000FF;
+}
+.hgfhgf {
+	FONT-WEIGHT: normal;
+	 FONT-SIZE: 13px; 
+	 COLOR: #ffffff; 
+	 FONT-FAMILY: Tahoma
+}
+BODY {
+	FONT-SIZE: 13px; FONT-FAMILY: "tahoma", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif
+}
+UL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+H3 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND: #000000; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #000000 0px solid
+}
+#main {
+	MARGIN: 0px auto; WIDTH: 221px
+}
+#accordion LI {
+	BORDER-BOTTOM: #dedede 1px solid
+}
+#accordion LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 6px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; TEXT-DECORATION: none;BACKGROUND: #f8f9f9
+}
+#accordion LI A:hover {
+	BACKGROUND: #efefef
+}

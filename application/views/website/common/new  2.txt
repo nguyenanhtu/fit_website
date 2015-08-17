@@ -1,0 +1,2 @@
+putty : Phần mềm kết nối server
+phần mềm upload file ftp 

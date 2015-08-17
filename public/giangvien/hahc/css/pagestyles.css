@@ -1,0 +1,149 @@
+﻿.logo {
+	position: absolute;
+	left: 25px;
+	top: 32px;
+	z-index: auto;
+}
+
+.topbar {
+    width=850px;
+    height=14px; 
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: auto;
+}
+
+.topline {
+    width=790px;
+    height=4px; 
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	z-index: auto;
+}
+
+.bottomline {
+    width=558px;
+    height=4px; 
+	position: absolute;
+	left: 175px;
+	top: 180px;
+	z-index: auto;
+}
+
+.bottombar {
+    width=558px;
+    height=9px;
+	position: absolute;
+	left: 175px;
+	top: 750px;
+	z-index: auto;
+}
+
+
+.name {
+	text-indent: 0pt;
+	text-align: left;
+	font-family: Verdana;
+	color: #000080;
+	font-weight: bold;
+	font-size: xx-large;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	width: 700px; 
+	height: 48px; 
+	position: absolute; 
+	top: 29px; 
+	left: 150px; 
+}
+
+.position {
+	text-indent: 0pt;
+	text-align: left;
+	font-family: Verdana;
+	font-size: medium;
+	color: #000080;
+	font-weight: bold;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	width: 700px; 
+	height: 23px; 
+	position: absolute; 
+	top: 67px; 
+	left: 150px; 
+}
+
+.pagetitle {
+	text-indent: 0pt;
+	text-align: left;
+	font-family: Verdana;
+	color: #88160A;
+	font-weight: bold;
+	font-size: xx-large;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	width: 675px;
+	height: 40px;
+	position: absolute;
+	top: 125px;
+	left: 175px;
+}
+
+.menutext-highlighted {	
+	text-indent: 0pt;
+	text-align: left;
+	font-family: Verdana;
+	color: #88160A;
+	font-weight: bold;
+	font-size: large;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+.menutext-normal {	
+	text-indent: 0pt;
+	text-align: left;
+	font-family: Verdana;
+	color: #000080;
+	font-size: 16px;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	width: 150px; 
+	height: 25px; 
+	z-index: auto;
+}
+.content{
+	font-family: Verdana; font-size: small; font-weight: normal; font-style: normal; font-variant: normal; text-transform: none; color: #000000; position: absolute; width: 558px; height: 555px; top: 190px; left: 175px;
+}
+
+.textnormal {
+	text-indent: 0pt;
+	text-align: left;
+	font-family: Verdana;
+	color: #000080;
+	font-weight: normal;
+	font-size: 11pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+.textsmall {
+	text-indent: 0pt;
+	text-align: left;
+	font-family: Verdana;
+	color: #000080;
+	font-weight: normal;
+	font-size: 9pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+

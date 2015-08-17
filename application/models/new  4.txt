@@ -1,0 +1,10 @@
+<div id="system-message-container">
+<dl id="system-message">
+<dt class="message">Message</dt>
+<dd class="message message">
+	<ul>
+		<li>Category successfully saved</li>
+	</ul>
+</dd>
+</dl>
+</div>

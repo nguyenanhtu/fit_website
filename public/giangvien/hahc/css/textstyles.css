@@ -1,0 +1,33 @@
+﻿a {/* underlining */
+	text-decoration:none
+}
+
+a:link {/* unvisited link */
+    color: #0000D0
+} 
+    
+a:visited {/* visited link */
+    color: #0000D0
+}  
+
+a:hover {/* mouse over link */
+    color: #88160A
+} 
+  
+a:active {/* selected link */
+    color: #0000D0
+}   
+
+body {
+	background:url(../images/bg.png);
+	class:"textnormal";
+    scrollbar-base-color: #E2D0AE;
+    scrollbar-face-color: #E2D0AE;
+    scrollbar-arrow-color: #92805E;
+    scrollbar-3dlight-color: #E2D0AE;
+    scrollbar-highlight-color: #92805E;
+    scrollbar-shadow-color: #92805E;
+    scrollbar-darkshadow-color: #92805E;
+    scrollbar-track-color: #F2E0BE;
+
+}

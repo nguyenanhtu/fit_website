@@ -1,0 +1,674 @@
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+/*****************************MAIN********************************/
+.main{
+	width:100%;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.head{
+	width:960px;
+	height:150px;
+	margin:auto;
+	background-image:url(../images/banner2.jpg)
+}
+.headright{
+	width:400px;
+	height:150px;
+	float:right;
+}
+.search{
+	float:right;
+	margin-top:30px;
+}
+
+input {
+	outline: none;}
+	
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;}
+input[type=search] {
+	background:#fff url(../images/search.png) no-repeat right center;
+	border: solid 1px #a3a3a3;
+	padding: 10px 30px 10px 10px;
+	margin-left:300px;
+	width: 150px;}
+input[type=search] {
+    -webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;}
+input[type=search] {
+    -webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	 -o-transition: all 0.5s linear;
+	transition: all 0.5s linear;}
+input[type=search]:focus {
+	width: 250px;
+	background-color: #fff;
+	border-color: #6dcff6;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,0.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,0.5);
+	box-shadow: 0 0 5px rgba(109,207,246,0.5);}	
+/************************Login - Logout*****************************/
+.menutren{
+	float:right;
+	margin-top:5px;
+	color:#039;	
+}
+a{
+text-decoration:none;
+color:#039;
+font-weight:bold;
+}
+/******************************MENU NGANG**********************************/
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu #menu-button {
+  display: none;
+}
+#cssmenu {
+  width: 960px;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  background: #396fcc;
+  background: -moz-linear-gradient(top, #5181d2 0%, #2d5daf 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5181d2), color-stop(100%, #2d5daf));
+  background: -webkit-linear-gradient(top, #5181d2 0%, #2d5daf 100%);
+  background: -o-linear-gradient(top, #5181d2 0%, #2d5daf 100%);
+  background: -ms-linear-gradient(top, #5181d2 0%, #2d5daf 100%);
+  background: linear-gradient(to bottom, #5181d2 0%, #2d5daf 100%);
+}
+#cssmenu > ul {
+  background: url('images/bg.png');
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.05);
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu > ul > li > a {
+  padding: 18px 25px 21px 25px;
+  border-right: 1px solid rgba(80, 80, 80, 0.12);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  color: #d3eced;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover,
+#cssmenu > ul > li.active > a {
+  color: #ffffff;
+  background: #32a9c3;
+  background: rgba(0, 0, 0, 0.1);
+}
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 29px;
+}
+#cssmenu > ul > li.has-sub > a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top-color: #d3eced;
+  right: 17px;
+  top: 22px;
+}
+#cssmenu > ul > li.has-sub.active > a::after,
+#cssmenu > ul > li.has-sub:hover > a {
+  border-top-color: #ffffff;
+}
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px;
+  top: 60px;
+  padding-top: 6px;
+  font-size: 13px;
+  opacity: 0;
+  -webkit-transition: top 0.2s ease, opacity 0.2s ease-in;
+  -moz-transition: top 0.2s ease, opacity 0.2s ease-in;
+  -ms-transition: top 0.2s ease, opacity 0.2s ease-in;
+  -o-transition: top 0.2s ease, opacity 0.2s ease-in;
+  transition: top 0.2s ease, opacity 0.2s ease-in;
+}
+#cssmenu > ul > li > ul::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-bottom-color: #ffffff;
+  top: -4px;
+  left: 20px;
+}
+#cssmenu ul ul ul::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-right-color: #ffffff;
+  top: 11px;
+  left: -4px;
+}
+#cssmenu > ul > li > ul {
+  top: 120px;
+}
+#cssmenu > ul > li:hover > ul {
+  top: 52px;
+  left: 0;
+  opacity: 1;
+}
+#cssmenu ul ul ul {
+  padding-top: 0;
+  padding-left: 6px;
+}
+#cssmenu ul ul > li:hover > ul {
+  left: 180px;
+  top: 0;
+  opacity: 1;
+}
+#cssmenu ul ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  padding: 11px 25px;
+  width: 180px;
+  color: #777777;
+  background: #ffffff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.1), -1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li.active > a {
+  color: #333333;
+}
+#cssmenu ul ul li:first-child > a {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#cssmenu ul ul li:last-child > a {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#cssmenu > ul > li > ul::after {
+  position: absolute;
+  display: block;
+}
+#cssmenu ul ul li.has-sub > a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-left-color: #777777;
+  right: 17px;
+  top: 14px;
+}
+#cssmenu ul ul li.has-sub.active > a::after,
+#cssmenu ul ul li.has-sub:hover > a::after {
+  border-left-color: #333333;
+}
+@media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  #cssmenu {
+    background: #39b1cc;
+  }
+  #cssmenu > ul {
+    display: none;
+  }
+  #cssmenu > ul.open {
+    display: block;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  #cssmenu > ul > li {
+    float: none;
+  }
+  #cssmenu > ul > li > a {
+    padding: 18px 25px 18px 25px;
+    border-right: 0;
+  }
+  #cssmenu > ul > li:hover > a,
+  #cssmenu > ul > li.active > a {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  #cssmenu #menu-button {
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #d3eced;
+    padding: 18px 25px 18px 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: url('images/bg.png');
+    cursor: pointer;
+  }
+  #cssmenu ul ul,
+  #cssmenu ul li:hover > ul,
+  #cssmenu > ul > li > ul,
+  #cssmenu ul ul ul,
+  #cssmenu ul ul li:hover > ul {
+    left: 0;
+    top: auto;
+    opacity: 1;
+    width: 100%;
+    padding: 0;
+    position: relative;
+  }
+  #cssmenu ul ul li {
+    width: 100%;
+  }
+  #cssmenu ul ul li a {
+    width: 100%;
+    box-shadow: none;
+    padding-left: 35px;
+  }
+  #cssmenu ul ul ul li a {
+    padding-left: 45px;
+  }
+  #cssmenu ul ul li:first-child > a,
+  #cssmenu ul ul li:last-child > a {
+    border-radius: 0;
+  }
+  #cssmenu #menu-button::after {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 22px;
+    border-top: 2px solid #d3eced;
+    border-bottom: 2px solid #d3eced;
+    right: 25px;
+    top: 18px;
+  }
+  #cssmenu #menu-button::before {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 22px;
+    border-top: 2px solid #d3eced;
+    right: 25px;
+    top: 28px;
+  }
+  #cssmenu > ul > li.has-sub > a::after,
+  #cssmenu ul ul li.has-sub > a::after {
+    display: none;
+  }
+}
+/****************************END MENU NGANG*********************************/
+
+/*************************CONTENT***********************************/
+.content{
+	width:958px;
+	margin:0 auto;
+	//background-image:url(../images/bg.png);
+}
+.timkiem{
+	width:100%;
+	height:200px;
+}
+.cont{
+
+}
+
+.tindocnhieu{
+	width:220px;
+	margin:0 auto;
+	height:500px;
+	background-image:url(../images/bg.png);
+	border:1px outset #666;
+	margin-top:50px;
+}
+.tdn_tieude{
+	
+	font-weight:bold;
+	padding-top:10px;
+	width:200px;
+	height:30px;
+	font-size:16px;
+	color:#03C;
+	float:left;
+	padding-left:50px;
+	margin:0 auto;
+}
+.tdn_noidung{
+	padding-top:10px;
+	width:200px;
+	font-size:14px;
+	color:#09F;
+	float:left;
+	padding-left:20px;
+	margin-top:20px;
+}
+.tdn_noidung span{font-size:12px; color:#636}
+.tdn_noidung a{font-size:14px; color:#09F; font-weight:100;}
+.noidung{
+	width:100%;
+	float:left;
+	margin-left:100px;
+	margin-bottom:20px;
+}
+.noidung h2{
+	height:20px;
+	font:"Arial Black", Gadget, sans-serif;
+	font-size:20px;
+	color:#00F;
+	padding-top:10px;
+}
+.nd_menu{
+	width:500px;
+	height:50px;
+	float:left;
+}
+.thanhngang{
+	float:left;
+	width:100%;
+	height:2px;
+	border:1px outset #066;
+}
+.nd_menu h2{
+	height:30px;
+	font:"Arial Black", Gadget, sans-serif;
+	font-size:16px;
+	color:#00F;
+	padding-left:20px;
+	padding-top:10px;
+}
+h2 a{
+	text-decoration:none;
+}
+.baiviet{
+	width:800px;
+	height:100px;
+	float:left;
+	padding-top:20px;
+}
+.img{
+	width:100px;
+	padding-left:50px;
+	height:100px;
+	float:left;
+}
+.tomtat{
+	width:600px;
+	height:100px;
+	float:left;
+}
+.title{
+	width:600px;
+	height:20px;
+	padding-left:20px;
+	float:left;
+	color:#06C;
+}
+.des{
+	width:400px;
+	height:80px;
+	padding-left:20px;
+	padding-top:15px;
+	float:left;
+}
+/*************************END CONTENT******************************/
+
+/*************************TRANG CHU******************************/
+.tc_tieude{margin-top:30px; float:left}
+.tc_tieude li{list-style:none; float:left; background:url(../images/bgmenu.png) 50px}
+.tc_tieude li span{float:left; width:2px; height:50px;}
+
+
+/*************************END TRANG CHU*********************/
+
+/*************************ACCOUNT******************************/
+.nd_menu1{
+	width:800px;
+	height:30px;
+	float:left;
+	padding-left:50px;
+	padding-top:20px;
+}
+.acc{
+	width:100%;
+	height:400px;
+}
+.acc_anh{
+	width:200px;
+	height:120px;
+	float:left;
+	padding-left:50px;
+	padding-top:50px;
+}
+.acc_thongtin{
+	float:left;
+	width:600px;
+	height:120px;
+	padding-top:50px;
+}
+.acc_thongtin ul li{
+	list-style:none;
+	line-height:30px;
+	color:#066;
+	font-weight:bold;
+}
+.acc_edit{
+	float:right;
+	width:500px;
+	height:50px;
+	color:#036;
+}
+/*************************END ACCOUNT******************************/
+
+/*************************CHI TIET TIN TUC************************/
+.noidung_chitiet{
+	width:550px;
+	float:left;
+}
+.ct_ngaydang{
+	width:100%;
+	height:30px;
+	float:left;
+	padding-left:20px;
+}
+.ct_tomtat{
+	width:100%;
+	float:left;
+	padding-left:20px;
+	font-weight:bold;
+	line-height: 20px;
+}
+.ct_con{
+	width:100%;
+	float:left;
+	padding-top:20px;
+	padding-left:20px;
+	line-height: 20px;
+}
+.tt_tacgia{
+	width:100%;
+	float:left;
+	padding-left:520px;
+	line-height: 20px;
+}
+.tt_tinlienquan{
+	padding-top:20px;
+	width:100%;
+	float:left;
+	padding-left:20px;
+	line-height: 20px;
+	padding-bottom:20px;
+}
+.tlq_tieude{
+	width:100%;
+	height:30px;
+	font:"Arial Black", Gadget, sans-serif;
+	font-size:20px;
+	color:#00F;
+	padding-top:10px;
+	float:left
+}
+.tlq_tt{
+	padding-top:20px;
+	width:100%;
+	float:left;
+	padding-left:20px;
+	line-height: 20px;
+	padding-bottom:20px;
+}
+/*************************END CHI TIET TIN TUC************************/
+
+/*************************GIOI THIEU************************/
+.tq_tomtat{
+	width:550px;;
+	float:left;
+	padding-left:20px;
+	line-height:20px;
+	padding-bottom:20px;
+	
+}
+.cc_title{
+	width:100%;
+	height:30px;
+	font:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#00F;
+	padding-top:10px;
+	padding-left:30px;
+	float:left;
+}
+.cc_thongtin{
+	width:100%;
+	padding-top:10px;
+	padding-left:30px;
+	height:170px;
+}
+.cc_ttchitiet{
+	width:200px;
+	padding-left:100px;
+	float:left;
+	padding-bottom:20px;
+	height:170px;
+}
+.cc_ttchitiet ul li{
+	line-height:30px;
+	list-style:none;
+}
+.cc_anh{
+	width:120px;
+	height:120px;
+	float:left;
+}
+/*************************END GIOI THIEU************************/
+.menu{ margin-top:30px; float:left}
+/*.menu ul{padding:0; margin:0; float:left}*/
+.menu li{list-style:none; float:left; margin-left:5px; background:url(../images/bgmenu.png) 30px}
+.menu li span{float:left; width:2px; height:30px;}
+.menu li a{ text-decoration:none; padding:7px ; float:left; color:#fff; font-weight:bold;}
+.menu li span.mleft{background:url(../images/bgmenu.png)}
+.menu li span.mright{background:url(../images/bgmenu.png) bottom}
+.menu li a:hover{background:url(../images/bgmenu_ac.png)}
+
+.tc_baiviet{
+	width:100%;
+	height:120px;
+	float:left;
+}
+.tc_anh{
+	padding-top:20px;
+	width:140px;
+	height:100px;
+	float:left;
+	padding-left:10px;
+}
+.tc_tomtat{
+	padding-top:20px;
+	width:400px;
+	height:100px;
+	float:left;
+	padding-left:10px;
+	line-height:20px;
+}
+.tc_tinlq{
+	width:500px;
+	float:left;
+	height:70px;
+	padding-top:20px;
+	padding-left:10px;
+	line-height:20px;
+}
+
+
+/*************************FOOTER***********************************/
+
+.footer_content{
+    background: #006;
+    width:960px;
+    overflow: hidden;
+    color: #fff;
+	margin:0 auto;
+    border-radius:00px 0px 20px 20px;
+}
+.fooer_column1{
+    float:left;
+    
+}
+.fooer_column1 .com_name{
+    padding:10px 0 10px 10px;
+    text-transform: uppercase;
+    font-size:14px;
+}
+.fooer_column1 p{
+    padding:0;
+    margin:0;
+    padding-left:10px;
+    padding-bottom: 5px;
+}
+.fooer_column1 .hotline{
+    background: url("../images/hotline.png") no-repeat 2% 80%;
+    padding-left:50px;
+    padding-top:20px;
+    font-size:14px;
+}
+.footer_column2{
+    float:right;
+}
+.footer_social{
+    padding: 10px 20px 10px 10px;
+}
+.footer_copyright{
+    clear:both;
+    text-align: center;
+}
+.footer_logo{
+    float:left;
+    padding:10px;
+}
+.footer_copyright_title{
+    float:left;
+}
+/************************* END FOOTER***********************************/
